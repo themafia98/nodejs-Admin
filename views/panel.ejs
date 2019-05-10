@@ -1,0 +1,28 @@
+<% include blocks/header.ejs %>
+    <section id ='admin'>
+    <div class="container">
+            <div class ='admin_inform'>
+            <h1 class ='title_admin'><strong>Admin panel</strong></h1>
+            <p>Status: <%= data.status %></p>
+            <p>Name: <%= data.name %></p>
+             <p>Warning:<span class ='warning'></span></p>
+            <forms name ='logout'>
+            <input data-type='logout' type="button" class="btn btn-primary btn-form" value='logout'>
+            </forms>
+            </div>
+
+        <div class ='change-block'>
+            <form name ='changeEmail' class="adminForm">
+                <input name='email' type="email" class="login form-control"aria-describedby="emailHelp" placeholder="Enter email">
+                <input name='emailPassword' type="password" class="password form-control" placeholder="Password">
+                <input data-type='change' type="button" class="btn btn-primary btn-form" value ='CHANGE EMAIL'>
+        
+            </div>
+        </form>
+    </div>
+    </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src= "/jsClient/index.js" type='module'></script>
+</html>

@@ -1,0 +1,15 @@
+{
+
+    "port": 9000,
+    "host": "localhost:*",
+
+    "session":{
+        "secret": "dev",
+        "key": "sid",
+        "cookie":{
+            "path": "/",
+            "httpOnly": true,
+            "maxAge": null
+        }
+    }
+}

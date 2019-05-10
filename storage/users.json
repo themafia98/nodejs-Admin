@@ -1,0 +1,28 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "themafia98",
+			"policy": "admin",
+			"login": "admin@admin.com",
+			"password": "admin",
+			"session": ""
+		},
+		{
+			"id": 2,
+			"name": "gena228",
+			"policy": "admin",
+			"login": "gena228@admin.com",
+			"password": "admin",
+			"session": ""
+		},
+		{
+			"id": 3,
+			"name": "bookin228",
+			"policy": "mod",
+			"login": "bookin228@admin.com",
+			"password": "admin",
+			"session": ""
+		}
+	]
+}
