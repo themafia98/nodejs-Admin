@@ -1,6 +1,8 @@
-# Admin panel on Node JS
+# test admin panel on Node JS
 
-What i use:
+This project was created to understand in more detail how communication with the server
+
+### What i use:
 
 
 
